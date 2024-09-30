@@ -1,0 +1,99 @@
+
+.container {
+  background-color: rgb(214, 221, 226);
+  max-width: 1100px; 
+  margin: 0 auto;
+  padding:20px;
+  margin-left: 7rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 10px;
+  text-align: center;
+  
+}
+
+p {
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 30px;
+  color: #555;
+  text-align: center;
+}
+
+
+.filter-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.filter-section button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #fcfafa;
+  border: 1px solid #ddd;
+  border-radius: 19px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
+
+.filter-section button:hover {
+  background-color: #213547;
+  border: none;
+  color: #fdfdfd ;
+}
+
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+ 
+}
+
+.product-item {
+  background-color: rgb(250, 248, 248);
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: box-shadow 0.3s ease; 
+}
+
+.product-item:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+
+.product-item h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2em;
+  color: #303d66;
+  margin-bottom: 1px;
+}
+
+.product-item p {
+  font-family: 'Roboto', sans-serif;
+  color: #3d3d3d;
+  margin-bottom: 1px;
+  
+}
+
+.product-image {
+  width: 270px;
+  height: 270px;
+  object-fit: cover;
+  border-radius: 10px;
+
+}
+ 
+
+ 
